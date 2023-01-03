@@ -1,0 +1,221 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ul li, p{
+    text-align: justify;
+    line-height: 35px;
+}
+p{
+    text-align: center;
+    line-height: 35px;
+}
+body{
+    /* gap: 6%; */
+    display: grid;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1, h2{
+    text-align: center;
+    margin-bottom: 6%;
+    color: black;
+    margin-top: 10%;
+}
+
+/* header */
+/* header{ */
+    /* max-width: 600px; */
+    /* margin-bottom: 5%; */
+/* } */
+header{
+    background-color: honeydew;
+}
+.logo{
+    width: 6%;
+    background-color: grey;
+}
+.logo > img{
+    width: 100%;
+}
+.menu{
+    width: 94%;
+    background-color: black;
+}
+.containerMenu{
+    height: 100%;
+    padding-right: 1%;
+}
+.listaMenu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    height: 100%;
+    align-items: center;
+}
+.cabecera{
+    display: flex;
+}
+
+.titulo{
+    /* background-image: url(/img/pexels-james-wheeler-1619317.jpg); */
+    /* height: 15rem; */
+    /* place-content: center; */
+    /* display: grid; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+
+    display: grid;
+    grid-template-columns: 50% 48%;
+    gap: 2%;
+    /* justify-content: space-between; */
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+/* .tituloInfo{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+} */
+.tituloInfo > h2{
+    font-size: 1.3rem;
+}
+.titulo img{
+    width: 95%;
+    border-radius: 60%;
+}
+h1{
+    color: black;
+    font-size: 2.5rem;
+}
+
+/* footer  */
+footer{
+    /* height: 5rem;
+    background-color: grey;
+    margin-top: 6%; */
+
+    height: 5rem;
+    background-color: grey;
+    /* margin-top: 6%; */
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+}
+.rrss{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    height: 100%;
+    align-items: center;
+}
+.sectionRRSS{
+    height: 100%;
+}
+.rrss img{
+    width: 2rem;
+}
+
+
+/* main  */
+main{
+    /* width: 90%; */
+    margin: 0 auto;
+    background-color: azure;
+}
+
+li a{
+    color: black;
+    font-size: .9rem;
+}
+.navCV{
+
+    display: grid;
+    grid-template-columns: 27% 22% 22% 27%;
+    background: lightgrey;
+    width: 100%;
+    text-align: center;
+
+}
+.navCV li{
+
+
+    text-align: center;
+
+}
+main section{
+    width: 80%;
+    margin: 10% auto;
+}
+
+/* .trabajo ul{
+    width: 75%;
+    margin: 0 auto;
+}
+.estudio ul{
+    width: 75%;
+    margin: 0 auto;
+} */
+.dtPersonales{
+    font-size: 1.3rem;
+    word-spacing: 5px;
+}
+/* idiomas */
+th, tr, td{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width:992px) {
+    .datosPerfil{
+        display: grid;
+        /* grid-template-columns: 40% 55%; */
+        /* align-items: baseline; */
+        /* gap: 5%; */
+        border: 1px solid black;
+        height: 100%;
+    }
+    table{
+        width: 70%;
+        margin: 0 auto;
+    }
+    main section{
+        width: 90%;
+        margin: 10% auto;
+    }
+   
+    .container{
+        display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
+    .tituloInfo > h2{
+        font-size: 2.3rem;
+    }
+    .trabajo ul{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .estudio ul{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+   
+}
